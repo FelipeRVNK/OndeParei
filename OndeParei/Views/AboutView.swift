@@ -13,7 +13,7 @@ struct AboutView: View {
                         VStack(alignment: .leading) {
                             Text("Felipe D. Schmidt")
                                 .font(.headline)
-                            Text(" Desenvolvimento de Aplicativos Móveis / Disciplina IOS")
+                            Text(" Desenvolvimento de Aplicativos Móveis | Disciplina IOS")
                                 .font(.caption)
                                 .foregroundColor(.gray)
                         }
@@ -38,8 +38,4 @@ struct AboutView: View {
             .navigationTitle("Sobre")
         }
     }
-}
-
-#Preview {
-    AboutView()
 }
